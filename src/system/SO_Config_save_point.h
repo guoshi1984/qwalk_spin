@@ -1,3 +1,7 @@
+
+/* 
+ * Copyright(C) 2012  Shi Guo
+*/
 #ifndef SO_CONFIG_SAVE_POINT_H_INCLUDED
 #define SO_CONFIG_SAVE_POINT_H_INCLUDED
 #include "Qmc_std.h"

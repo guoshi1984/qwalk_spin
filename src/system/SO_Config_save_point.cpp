@@ -1,3 +1,6 @@
+/*
+ * Copyright(C) 2012 Shi Guo
+ */
 #include "SO_Config_save_point.h"
 
 void SO_Config_save_point::write(ostream & os)

@@ -1,6 +1,6 @@
 /*
  
-Copyright (C) 2007 Jindrich Kolorenc, Michal Bajdich
+Copyright (C) 2012 Shi Guo
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
