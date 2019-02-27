@@ -1,0 +1,144 @@
+./obj/Darwin/Average_generator.o  : properties/Average_generator.cpp \
+  properties/Average_generator.h program_utils/Qmc_std.h \
+  program_utils/Array.h wavefunction/Wavefunction.h \
+  program_utils/qmc_io.h system/Sample_point.h \
+  wavefunction/Wavefunction_data.h basis_function/Basis_function.h \
+  system/System.h method/Force_fitter.h system/gesqua.h \
+  program_utils/ulec.h
+./obj/Darwin/Basis_function.o  : basis_function/Basis_function.cpp \
+  basis_function/Basis_function.h program_utils/Array.h \
+  program_utils/Qmc_std.h program_utils/qmc_io.h \
+  basis_function/Cubic_spline.h basis_function/Spline_fitter.h \
+  basis_function/Real_Spherical_harmonics.h \
+  basis_function/CBasis_function.h basis_function/CCubic_spline.h \
+  basis_function/Pade_function.h basis_function/Poly_pade_function.h \
+  basis_function/Gaussian_function.h basis_function/Exponent_cusp.h \
+  basis_function/Cutoff_cusp.h basis_function/Planewave_function.h \
+  basis_function/Rgaussian_function.h basis_function/Gen_pade_function.h \
+  basis_function/Step_function.h basis_function/Group_function.h \
+  basis_function/Cosine_function.h \
+  basis_function/Spherical_bessel_function.h basis_function/Yukawa.h \
+  basis_function/Cutoff_cusp_2D.h basis_function/Poly_pade_function_2D.h
+./obj/Darwin/Cubic_spline_build.o  : basis_function/Cubic_spline_build.cpp \
+  program_utils/Qmc_std.h program_utils/Array.h program_utils/qmc_io.h \
+  basis_function/Cubic_spline.h basis_function/Basis_function.h \
+  basis_function/Spline_fitter.h \
+  basis_function/Real_Spherical_harmonics.h \
+  basis_function/CBasis_function.h basis_function/CCubic_spline.h
+./obj/Darwin/Cubic_spline_calc.o  : basis_function/Cubic_spline_calc.cpp \
+  program_utils/Qmc_std.h program_utils/Array.h \
+  basis_function/Cubic_spline.h basis_function/Basis_function.h \
+  basis_function/Spline_fitter.h \
+  basis_function/Real_Spherical_harmonics.h \
+  basis_function/CBasis_function.h basis_function/CCubic_spline.h
+./obj/Darwin/CCubic_spline_build.o  : basis_function/CCubic_spline_build.cpp \
+  program_utils/Qmc_std.h program_utils/Array.h program_utils/qmc_io.h \
+  basis_function/CCubic_spline.h basis_function/CBasis_function.h \
+  basis_function/Spline_fitter.h \
+  basis_function/Real_Spherical_harmonics.h \
+  basis_function/Cubic_spline.h basis_function/Basis_function.h
+./obj/Darwin/CCubic_spline_calc.o  : basis_function/CCubic_spline_calc.cpp \
+  program_utils/Qmc_std.h program_utils/Array.h \
+  basis_function/CCubic_spline.h basis_function/CBasis_function.h \
+  basis_function/Spline_fitter.h \
+  basis_function/Real_Spherical_harmonics.h \
+  basis_function/Cubic_spline.h basis_function/Basis_function.h
+./obj/Darwin/Real_Spherical_harmonics.o  : basis_function/Real_Spherical_harmonics.cpp \
+  basis_function/Real_Spherical_harmonics.h \
+  basis_function/CBasis_function.h program_utils/Array.h \
+  program_utils/Qmc_std.h
+./obj/Darwin/Cutoff_cusp.o  : basis_function/Cutoff_cusp.cpp \
+  basis_function/Cutoff_cusp.h basis_function/Basis_function.h \
+  program_utils/Array.h program_utils/Qmc_std.h program_utils/qmc_io.h
+./obj/Darwin/Cutoff_cusp_2D.o  : basis_function/Cutoff_cusp_2D.cpp \
+  basis_function/Cutoff_cusp_2D.h basis_function/Basis_function.h \
+  program_utils/Array.h program_utils/Qmc_std.h program_utils/qmc_io.h
+./obj/Darwin/Exponent_cusp.o  : basis_function/Exponent_cusp.cpp \
+  basis_function/Exponent_cusp.h basis_function/Basis_function.h \
+  program_utils/Array.h program_utils/Qmc_std.h program_utils/qmc_io.h
+./obj/Darwin/Gaussian_function.o  : basis_function/Gaussian_function.cpp \
+  basis_function/Gaussian_function.h basis_function/Basis_function.h \
+  program_utils/Array.h program_utils/Qmc_std.h program_utils/qmc_io.h
+./obj/Darwin/Gen_pade_function.o  : basis_function/Gen_pade_function.cpp \
+  basis_function/Gen_pade_function.h basis_function/Basis_function.h \
+  program_utils/Array.h program_utils/Qmc_std.h program_utils/qmc_io.h
+./obj/Darwin/Pade_function.o  : basis_function/Pade_function.cpp \
+  basis_function/Pade_function.h basis_function/Basis_function.h \
+  program_utils/Array.h program_utils/Qmc_std.h program_utils/qmc_io.h
+./obj/Darwin/Planewave_function.o  : basis_function/Planewave_function.cpp \
+  basis_function/Planewave_function.h basis_function/Basis_function.h \
+  program_utils/Array.h program_utils/Qmc_std.h program_utils/qmc_io.h
+./obj/Darwin/Poly_pade_function.o  : basis_function/Poly_pade_function.cpp \
+  basis_function/Poly_pade_function.h basis_function/Basis_function.h \
+  program_utils/Array.h program_utils/Qmc_std.h program_utils/qmc_io.h
+./obj/Darwin/Poly_pade_function_2D.o  : basis_function/Poly_pade_function_2D.cpp \
+  basis_function/Poly_pade_function_2D.h basis_function/Basis_function.h \
+  program_utils/Array.h program_utils/Qmc_std.h program_utils/qmc_io.h
+./obj/Darwin/Rgaussian_function.o  : basis_function/Rgaussian_function.cpp \
+  basis_function/Rgaussian_function.h basis_function/Basis_function.h \
+  program_utils/Array.h program_utils/Qmc_std.h program_utils/qmc_io.h
+./obj/Darwin/Spline_fitter.o  : basis_function/Spline_fitter.cpp \
+  basis_function/Spline_fitter.h program_utils/Qmc_std.h \
+  program_utils/Array.h program_utils/qmc_io.h
+./obj/Darwin/Step_function.o  : basis_function/Step_function.cpp \
+  basis_function/Step_function.h basis_function/Basis_function.h \
+  program_utils/Array.h program_utils/Qmc_std.h program_utils/qmc_io.h
+./obj/Darwin/CBasis_function.o  : basis_function/CBasis_function.cpp \
+  basis_function/CBasis_function.h program_utils/Array.h \
+  program_utils/Qmc_std.h program_utils/qmc_io.h \
+  basis_function/CPlanewave_function.h \
+  basis_function/Blochwave_function.h basis_function/CCubic_spline.h \
+  basis_function/Spline_fitter.h \
+  basis_function/Real_Spherical_harmonics.h \
+  basis_function/Cubic_spline.h basis_function/Basis_function.h \
+  basis_function/SO_CPlanewave_function.h
+./obj/Darwin/CPlanewave_function.o  : basis_function/CPlanewave_function.cpp \
+  basis_function/CPlanewave_function.h basis_function/CBasis_function.h \
+  program_utils/Array.h program_utils/Qmc_std.h program_utils/qmc_io.h
+./obj/Darwin/SO_CPlanewave_function.o  : basis_function/SO_CPlanewave_function.cpp \
+  basis_function/SO_CPlanewave_function.h \
+  basis_function/Basis_function.h program_utils/Array.h \
+  program_utils/Qmc_std.h basis_function/CBasis_function.h \
+  program_utils/qmc_io.h
+./obj/Darwin/Blochwave_function.o  : basis_function/Blochwave_function.cpp \
+  basis_function/Blochwave_function.h basis_function/CBasis_function.h \
+  program_utils/Array.h program_utils/Qmc_std.h program_utils/qmc_io.h
+./obj/Darwin/Group_function.o  : basis_function/Group_function.cpp \
+  basis_function/Group_function.h basis_function/Basis_function.h \
+  program_utils/Array.h program_utils/Qmc_std.h program_utils/qmc_io.h
+./obj/Darwin/Cosine_function.o  : basis_function/Cosine_function.cpp \
+  basis_function/Cosine_function.h basis_function/Basis_function.h \
+  program_utils/Array.h program_utils/Qmc_std.h program_utils/qmc_io.h
+./obj/Darwin/Spherical_bessel_function.o  : basis_function/Spherical_bessel_function.cpp \
+  basis_function/Spherical_bessel_function.h \
+  basis_function/Basis_function.h program_utils/Array.h \
+  program_utils/Qmc_std.h program_utils/qmc_io.h
+./obj/Darwin/Yukawa.o  : basis_function/Yukawa.cpp basis_function/Yukawa.h \
+  basis_function/Basis_function.h program_utils/Array.h \
+  program_utils/Qmc_std.h program_utils/qmc_io.h
+./obj/Darwin/Properties_average.o  : properties/Properties_average.cpp \
+  properties/Properties_average.h program_utils/Qmc_std.h \
+  program_utils/Array.h properties/Properties_block.h \
+  properties/Average_generator.h wavefunction/Wavefunction.h \
+  program_utils/qmc_io.h system/Sample_point.h \
+  wavefunction/Wavefunction_data.h basis_function/Basis_function.h \
+  system/System.h method/Force_fitter.h
+./obj/Darwin/Properties_block.o  : properties/Properties_block.cpp \
+  properties/Properties_block.h program_utils/Qmc_std.h \
+  program_utils/Array.h properties/Average_generator.h \
+  wavefunction/Wavefunction.h program_utils/qmc_io.h \
+  system/Sample_point.h wavefunction/Wavefunction_data.h \
+  basis_function/Basis_function.h system/System.h method/Force_fitter.h
+./obj/Darwin/Qmc_std.o  : program_utils/Qmc_std.cpp program_utils/Qmc_std.h \
+  program_utils/Array.h
+./obj/Darwin/qmc_io.o  : program_utils/qmc_io.cpp program_utils/qmc_io.h \
+  program_utils/Qmc_std.h program_utils/Array.h
+./obj/Darwin/ulec.o  : program_utils/ulec.cpp program_utils/ulec.h \
+  program_utils/Qmc_std.h program_utils/Array.h
+./obj/Darwin/gesqua.o  : system/gesqua.cpp program_utils/Array.h program_utils/Qmc_std.h
+./obj/Darwin/gosling.o  : properties/gosling.cpp program_utils/Qmc_std.h \
+  program_utils/Array.h properties/Properties_block.h \
+  properties/Average_generator.h wavefunction/Wavefunction.h \
+  program_utils/qmc_io.h system/Sample_point.h \
+  wavefunction/Wavefunction_data.h basis_function/Basis_function.h \
+  system/System.h method/Force_fitter.h properties/Properties_average.h

@@ -1,0 +1,15 @@
+//func2
+//5dnorm[0]...5dnorm[4]
+
+
+ else if(basis[bas].types[i] == "6D") {
+          //for(int j=0; j< 6; j++) {
+            // moCoeff[mo][func]*=dnorm[j];
+            5dmoCoeff[mo][func2]=moCoeff[];  //
+            func2++; 
+
+
+ 
+            func++;
+          }
+
